@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle>
+    <drawing>
+        <grid unitdist="mm" unit="mm"/>
+        <layers>
+            <layer name="Top" color="4" number="1" visible="yes" active="yes" fill="1"/>
+            <layer name="tKeepout" color="0" number="4" visible="yes" active="yes" fill="1"/>
+            <layer name="Bottom" color="4" number="16" visible="yes" active="yes" fill="1"/>
+            <layer name="tPlace" color="7" number="21" visible="yes" active="yes" fill="1"/>
+            <layer name="bPlace" color="7" number="22" visible="yes" active="yes" fill="1"/>
+            <layer name="tNames" color="7" number="25" visible="yes" active="yes" fill="1"/>
+            <layer name="bNames" color="7" number="26" visible="yes" active="yes" fill="1"/>
+            <layer name="tValues" color="7" number="27" visible="yes" active="yes" fill="1"/>
+            <layer name="bValues" color="7" number="28" visible="yes" active="yes" fill="1"/>
+            <layer name="tStop" color="7" number="29" visible="yes" active="yes" fill="1"/>
+            <layer name="bStop" color="7" number="30" visible="yes" active="yes" fill="1"/>
+            <layer name="tCream" color="7" number="31" visible="yes" active="yes" fill="1"/>
+            <layer name="bCream" color="7" number="32" visible="yes" active="yes" fill="1"/>
+            <layer name="bKeepout" color="0" number="40" visible="yes" active="yes" fill="1"/>
+            <layer name="tRestrict" color="4" number="41" visible="yes" active="yes" fill="1"/>
+            <layer name="bRestrict" color="4" number="42" visible="yes" active="yes" fill="1"/>
+            <layer name="tDocu" color="7" number="51" visible="yes" active="yes" fill="1"/>
+            <layer name="bDocu" color="7" number="52" visible="yes" active="yes" fill="1"/>
+            <layer name="Nets" color="2" number="91" visible="yes" active="yes" fill="1"/>
+            <layer name="Busses" color="1" number="92" visible="yes" active="yes" fill="1"/>
+            <layer name="Pins" color="2" number="93" visible="yes" active="yes" fill="1"/>
+            <layer name="Symbols" color="4" number="94" visible="yes" active="yes" fill="1"/>
+            <layer name="Names" color="7" number="95" visible="yes" active="yes" fill="1"/>
+            <layer name="Values" color="7" number="96" visible="yes" active="yes" fill="1"/>
+            <layer name="Info" color="7" number="97" visible="yes" active="yes" fill="1"/>
+            <layer name="Guide" color="6" number="98" visible="yes" active="yes" fill="1"/>
+        </layers>
+        <library name="Upverter Library">
+            <description>Upverter Parts Library
+
+Created by Upverter.com</description>
+            <packages>
+                <package name="LINX_BAT-HLD-012-SMT_0">
+                    <description>CR1216, 1225 HOLDER OUTLINE SURFACE MOUNT</description>
+                    <wire layer="41" y2="5.2" width="0.1" x2="-9.0" y1="-5.2" x1="-9.0"/>
+                    <wire layer="41" y2="5.2" width="0.1" x2="9.0" y1="5.2" x1="-9.0"/>
+                    <wire layer="41" y2="-5.2" width="0.1" x2="9.0" y1="5.2" x1="9.0"/>
+                    <wire layer="41" y2="-5.2" width="0.1" x2="-9.0" y1="-5.2" x1="9.0"/>
+                    <wire layer="51" y2="4.75" width="0.15" x2="-6.75" y1="-4.75" x1="-6.75"/>
+                    <wire layer="51" y2="4.75" width="0.15" x2="6.75" y1="4.75" x1="-6.75"/>
+                    <wire layer="51" y2="-4.75" width="0.15" x2="6.75" y1="4.75" x1="6.75"/>
+                    <wire layer="51" y2="-4.75" width="0.15" x2="-6.75" y1="-4.75" x1="6.75"/>
+                    <wire layer="21" y2="4.75" width="0.15" x2="-4.0" y1="4.75" x1="-6.75"/>
+                    <wire layer="21" y2="4.75" width="0.15" x2="4.0" y1="4.75" x1="6.75"/>
+                    <wire layer="21" y2="-4.75" width="0.15" x2="4.0" y1="-4.75" x1="6.75"/>
+                    <wire layer="21" y2="-4.75" width="0.15" x2="-4.0" y1="-4.75" x1="-6.75"/>
+                    <wire layer="21" y2="3.5" width="0.15" x2="-6.75" y1="4.75" x1="-6.75"/>
+                    <wire layer="21" y2="-3.5" width="0.15" x2="-6.75" y1="-4.75" x1="-6.75"/>
+                    <wire layer="21" y2="3.5" width="0.15" x2="6.75" y1="4.75" x1="6.75"/>
+                    <wire layer="21" y2="-3.5" width="0.15" x2="6.75" y1="-4.75" x1="6.75"/>
+                    <text layer="25" align="bottom-left" y="5.58" x="-8.95" rot="R0" size="1.0">&gt;NAME</text>
+                    <circle y="5.775" x="0.0" layer="21" radius="0.25" width="0.0"/>
+                    <smd layer="1" thermals="yes" name="2" stop="yes" roundness="0" dx="2.5" dy="5.1" y="-0.1" x="-7.65" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="2-2" stop="yes" roundness="0" dx="2.5" dy="5.1" y="0.1" x="7.65" rot="R0" cream="yes"/>
+                    <smd layer="1" thermals="yes" name="1" stop="yes" roundness="100" dx="10.2" dy="10.2" y="0.0" x="0.0" rot="R0" cream="yes"/>
+                </package>
+            </packages>
+            <symbols>
+                <symbol name="LINX_BAT-HLD-012-SMT_0_0">
+                    <description>CR1216, 1225 HOLDER OUTLINE SURFACE MOUNT</description>
+                    <wire layer="94" y2="-2.54" width="0.508" x2="2.54" y1="-2.54" x1="7.62"/>
+                    <wire layer="94" y2="-4.064" width="0.508" x2="3.81" y1="-4.064" x1="6.35"/>
+                    <wire layer="94" y2="-5.842" width="0.508" x2="2.54" y1="-5.842" x1="7.62"/>
+                    <wire layer="94" y2="-7.62" width="0.508" x2="3.81" y1="-7.62" x1="6.35"/>
+                    <wire layer="94" y2="-2.54" width="0.15" x2="5.08" y1="-2.54" x1="5.08"/>
+                    <wire layer="94" y2="-7.62" width="0.15" x2="5.08" y1="-7.62" x1="5.08"/>
+                    <text layer="94" align="bottom-left" y="-0.508" x="7.62" rot="R270" size="2.54">+</text>
+                    <text layer="94" align="bottom-left" y="-10.16" x="8.89" rot="R180" size="2.54">-</text>
+                    <text layer="95" align="top-left" y="-1.524" x="10.16" rot="R0" size="2.54">&gt;NAME</text>
+                    <text layer="95" align="top-left" y="-6.604" x="10.16" rot="R0" size="2.54">BAT-HLD-012-SMT</text>
+                    <text layer="95" align="top-left" y="-4.064" x="10.16" rot="R0" size="2.54">3V</text>
+                    <pin name="ANODE" visible="pad" length="middle" y="2.54" x="5.08" rot="R270"/>
+                    <pin name="CATHODE" visible="pad" length="middle" y="-12.7" x="5.08" rot="R90"/>
+                </symbol>
+            </symbols>
+            <devicesets>
+                <deviceset prefix="BT" name="LINX_BAT-HLD-012-SMT">
+                    <description>CR1216, 1225 HOLDER OUTLINE SURFACE MOUNT</description>
+                    <gates>
+                        <gate name="G$0" symbol="LINX_BAT-HLD-012-SMT_0_0" x="0"/>
+                    </gates>
+                    <devices>
+                        <device name="LINX_BAT-HLD-012-SMT_0_0" package="LINX_BAT-HLD-012-SMT_0">
+                            <connects>
+                                <connect gate="G$0" pad="1" pin="CATHODE"/>
+                                <connect gate="G$0" pad="2-2 2" pin="ANODE"/>
+                            </connects>
+                            <technologies>
+                                <technology>
+                                    <attribute name="mouser_part_number" value="712-BAT-HLD-012-SMT"/>
+                                    <attribute name="centroid_not_specified" value="No"/>
+                                    <attribute name="MPN" value="BAT-HLD-012-SMT"/>
+                                    <attribute name="digikey_description" value="BATT RETAINER BATT CR1216/1225 SMD"/>
+                                    <attribute name="digikey_part_number" value="BAT-HLD-012-SMTCT-ND"/>
+                                    <attribute name="prefix" value="BT"/>
+                                    <attribute name="lead_free" value="yes"/>
+                                    <attribute name="voltage" value="3V"/>
+                                    <attribute name="imported_from" value="octopart"/>
+                                    <attribute name="rohs" value="yes"/>
+                                    <attribute name="datasheet" value="https://upverter.com/datasheet/da5bddacae7406a29dcf11255482d19615e274ce.pdf"/>
+                                    <attribute name="octopart_part_number" value="40ef88b453909f28"/>
+                                    <attribute name="num_pins" value="3"/>
+                                    <attribute name="MF" value="Linx"/>
+                                    <attribute name="package" value="BAT_HOLDER_SMT"/>
+                                </technology>
+                            </technologies>
+                        </device>
+                    </devices>
+                </deviceset>
+            </devicesets>
+        </library>
+    </drawing>
+</eagle>
